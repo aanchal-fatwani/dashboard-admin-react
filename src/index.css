@@ -1,13 +1,162 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.searchTerm {
+  width: 300px;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+  font-size: 16px;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.button {
+  width: 30%;
+  height: 40px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.prodDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  top: 30%;
+  margin: 20px 50px;
+  justify-content: center;
+}
+
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nextBtn {
+  border-radius: 5px;
+  font-size: x-large;
+  margin: 10px;
+}
+
+.dash {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  background-color: #00b4cc;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+.tabs {
+  background-color: white;
+  color: #00b4cc;
+  padding: 10px 45px;
+  margin: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+.prodCard {
+  width: 300px;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #00b4cc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+.prodInput {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.prodInput > input {
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: 0.5px solid #00b4cc;
+  margin: 20px;
+  width: 300px;
+  font-size: 18px;
+}
+.df {
+  display: flex;
+}
+.fdc {
+  flex-direction: column;
+}
+.fdr {
+  flex-direction: row;
+}
+.flw {
+  flex-wrap: wrap;
+}
+.spa {
+  justify-content: space-around;
+}
+.jcc {
+  justify-content: center;
+}
+.w100 {
+  width: 100%;
+}
+.sub {
+  height: 50px;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.custCard {
+  width: 300px;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #00b4cc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+.past {
+  width: 350px;
+  margin: 50px 20px 20px 0px;
+  vertical-align: middle;
+  font-size: 18px;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+.brd5 {
+  border-radius: 5px;
+}
+.active {
+  border: 5px solid #0300bb9e;
+  color: #0300bb9e;
+}
+.tc {
+  text-align: center;
+}
+.alert {
+  color: red;
 }
